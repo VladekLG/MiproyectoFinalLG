@@ -1,0 +1,994 @@
+/*Selector de etiquetas*/
+
+
+* {margin: 0;
+   padding:0;}
+
+
+   .slider {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+body   
+    {background-color: black; 
+    color: white; 
+    background-size: cover;
+    height: 5100px;
+    }
+
+
+
+    
+img {z-index: 1;}
+
+
+
+
+
+aside    
+    {background-color: black;}
+
+
+
+
+
+fieldset form 
+    {background-color: #001a00;
+    color: white;}
+
+
+    
+    
+
+/*Selector CLASS */
+
+    .bordesRedondeados 
+        {border-radius: 20%;
+        }
+
+    .iconos 
+        {border-radius: 80%;
+        }
+
+
+
+/*Selector de ID's */
+
+    #ejemplo 
+        {background-color: gray;
+        }
+
+
+
+/*Estilos de fuente*/
+
+    .normal 
+        {font-style: normal;
+        }
+
+    .italica
+        {font-style: italic;
+        }
+
+    .oblique
+        {font-style: oblique;
+        }
+
+
+
+/*tamaño de fuente (1Rem=16px)*/  
+    .titulo 
+        {
+         color: rgb(39, 255, 19);    
+         text-decoration:none;
+         text-align: center;
+         font-family:'Bungee Outline', sans-serif;
+         letter-spacing: 5px;
+         background-image: radial-gradient(rgb(8, 9, 54),black);
+        font-size: 70px;}
+        
+
+    .listas
+        {font-size: 1.4rem;
+        }
+
+    .parrafo
+        {font-size: 1rem;
+        letter-spacing: 2px;
+        color: white;
+        }
+    
+    
+    .h2               
+        {font-size: 2rem;
+         text-align: center; 
+         background-color: #07021f; 
+         font-weight: lighter;
+         color: white;
+         padding-bottom: 30px;
+         padding-top: 20px;
+        }
+
+        .h2article               
+        {font-size: 2rem;
+         text-align: center; 
+         color: white;
+        }
+
+
+
+    .h3 
+        {font-size: 1.5rem;  
+         color: white;
+         padding-bottom: 20px;
+         font-weight: lighter;
+         border-radius: 3%;
+        }
+
+    .subtitulos
+        {font-size: 1rem;
+        }
+
+
+
+
+/*Font-Weight*/
+    .negrita
+        {font-weight: bold;
+        }
+
+    .textoRelativo 
+        {font-size:200%;
+        }
+
+    
+    
+/*Font-family*/
+
+    .impact
+        {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+
+
+
+/*Google-Fonts*/
+
+    .rajdhani 
+        {font-family: 'Rajdhani', sans-serif;
+        }  
+
+    .VollkornSC
+        {font-family: 'Vollkorn SC', sans-serif;
+        }
+
+    .BungeeOutline
+        {font-family:'Bungee Outline', sans-serif;}
+
+
+
+/*Text-align*/
+
+    .centrar 
+        {text-align: center;
+        }
+
+    .aLaDerecha
+        {text-align: right;
+        }
+
+    .aLaIzquierda
+        {text-align: left;
+        }
+
+    .justify
+        {text-align: justify;
+        }
+
+
+
+/*Line-height*/
+
+    .interlineado 
+        {line-height: 1.5;
+        }
+
+
+
+/*Text-decoration*/
+
+    .subrayado 
+        {text-decoration: underline;
+        }
+
+    .tachado 
+        {text-decoration: line-through;
+        }
+
+    .sinsubrayar 
+        {text-decoration: none;
+        }
+
+    .sinsubrayarverde
+        {text-decoration: none;
+        color:  rgb(79, 255, 117);
+        }
+
+
+
+/*Letter y Word spacing*/
+
+    .espaciado 
+        {letter-spacing: 2px;
+        }
+
+    .espacioPalabra 
+        {word-spacing: 2px;
+        }
+
+
+
+/*Estilos para listas*/
+
+    ul 
+    {color: rgb(255, 255, 255);
+    margin: 10px;
+    list-style-type: square;
+    }
+
+
+
+/*Colores*/
+
+    .resaltador
+        {color: #9fff80;
+        }
+
+    .enlace
+        {color: #ff1a1a;
+        }
+
+    .minilista
+        {color: #4d88ff;
+        }
+
+    
+
+
+
+/*Alineacion de iconos*/
+
+    img 
+    {vertical-align: middle;
+    }
+
+
+
+/*Seccion de Juegos*/
+
+    .colorlista
+        {color: rgb(250, 255, 251);
+        background-color: #0f1e3e;
+        width: 600px;
+        }
+       
+    .divseccionjuegos
+        {background-color: #001a00;
+        width: 600px;
+        height: 800px;
+        margin-top: 20px;
+        }
+
+    
+
+
+
+/*Seccion de Noticias*/
+
+    .divseccionnoticias
+        {background-color: #000d1a;
+        width: 1100px;
+        height: 800px;
+        margin-top: 20px;
+        border: outset 5px;
+        border-radius: 3%;
+        margin-left: 320px;
+        }
+
+
+
+/*box modeling*/
+
+    
+
+
+/*menu*/
+
+    .padreflex 
+        {display: flex;
+        flex-direction: row;
+        position: relative;
+        z-index:2;
+        }
+            
+    
+    nav li:hover > ul {display: block;}
+
+    nav ul li:hover{
+    background-color: black;
+    color: white;
+    border: inset 4px rgb(79, 255, 117);
+    transition: all 1s;
+    }
+
+    
+
+
+
+/*box modeling - index*/
+
+    
+
+
+
+/*display*/
+
+    .displayBlock
+        {display: block;}
+
+    .displayInline 
+        {display: inline;
+        }
+
+
+
+/*Decoraciones del flexbox*/
+ 
+
+    
+
+
+/*Flexbox padre*/   
+    
+    .padreFlex 
+        {display:flex;/*activa FLEX*/
+        flex-flow: row wrap; /*forma abreviada*/
+        justify-content: center;
+        align-items: center;
+        }
+      
+
+
+/*(Grid de Seccion juegos "divs y aside") */
+
+                .gridAreas{
+                display: grid;
+                grid-template-areas:
+                "pc             links" /*1er fila*/
+                "switch         none" /*2da fila*/ 
+                "ps4yps5        none"  /*3er fila*/
+                ;
+                grid-template-columns: 65% 60vh;
+                grid-template-rows: 110% 110% 110%;
+                width: 100%;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;
+                height: 100vh;
+                margin-top: 15px;
+                margin-left: 0px;
+                }
+
+                .border {border: 5px double rgb(255, 255, 255);
+                border-radius: 4px;}
+
+
+        /* Nombrar Areas */ 
+
+
+            #pc {
+                grid-area: pc;
+                background-color: rgb(10, 10, 10);
+            }
+            #switch {
+                grid-area: switch;
+                background-color: rgb(10, 10, 10);
+            }
+            #ps4yps5 {
+                grid-area: ps4yps5;
+                background-color: rgb(10, 10, 10);
+            }
+
+            .aside {
+                grid-area: links;
+                background-color: rgb(10, 10, 10);
+            }
+
+
+                .h2grid               
+                    {font-size: 1.5rem;
+                    text-align: center; 
+                    background-color: #000000; 
+                    font-size: 1.5rem;
+                    color: #ffffff;    
+                    text-decoration: none;
+                    text-align: center;
+                    font-family:'Bungee Outline', sans-serif; 
+                    font-weight:bolder;
+                    }
+
+
+
+
+
+
+
+                        
+                .h3grid
+                    {font-size: 1.1rem;    
+                    text-align: center;
+                    color: rgb(79, 255, 117);
+                    font-weight: lighter;
+                    font-family:'Kelly Slab', cursive;
+                    letter-spacing: 0;
+                    }
+                            
+
+
+
+
+                .flexx {display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                }
+
+                .margendiv {margin-left: 5px;
+                    margin-top: 10px;}
+
+
+
+            /*Decoraciones de seccion juegos*/
+
+
+            section div h3 img {border-radius: 10px;}
+
+
+            /*ASIDE*/
+
+
+            .h2aside {color: white;
+            text-align:center;
+            font-weight: lighter;
+            letter-spacing: 1px;
+            font-size: 1.2rem;
+            height: 61px;
+            }
+
+
+    /*LISTA DE ASIDE*/
+
+        /*Centrado y decoraciones*/
+
+                .block{
+                text-align:center;
+                background-color:rgb(0, 0, 0);
+                height: 800px;
+                position: relative;
+                }
+        
+                    .list{
+                    text-align: left;/* Usar LEFT para que quede pegado al numero*/
+                    display:inline-block;
+                    margin-top: 50px;
+                    font-size: 1.3rem;
+                    letter-spacing: 8px;
+                    color: white;
+                    }
+
+                
+                        .colorLi{
+                        color:rgb(79, 255, 117);
+                        text-decoration: none;
+                        font-style: italic;
+                        font-weight: lighter;
+                        }
+                            .colorLi:hover {
+                                color:rgb(55, 0, 255);
+                                text-decoration: none;
+                                font-style: italic;
+                                font-weight: bolder;
+                                text-decoration: underline;
+                                }
+
+
+/*(SUBNAV "Juegos de Accion")*/      /*APLICAR GRIDS DESPUES!*/
+
+        /*(Grid de Seccion juegos "divs y aside") */
+
+        
+  
+
+    
+
+    .h3subnavs
+        {font-size: 1.7rem;    
+        align-content: center;
+        color: #ffffff;
+        font-weight: lighter;
+        text-decoration:double;
+        background-color: #000000;
+        height: 50px;
+        width: 100vh;
+        display: table-cell;
+        vertical-align: middle;   /*CENTRAR VERTICALMENTE EL TEXTO DENTRO*/
+        }
+    
+    
+     
+
+
+        
+
+
+        .bodysubnavs
+        {height: 2000px;
+        }
+    
+
+
+        
+       
+            
+/*Degradados*/ /*pRIMER color es origen */ /* 140deg grado */ /*linear y radial*/ 
+
+.grad {
+    background-image:linear-gradient(140deg, rgb(0, 8, 78), rgb(3, 83, 27));
+}
+
+
+.grad2 {background-image: radial-gradient(green, blue);}
+
+
+
+/* transiciones */ /* usar transition:all para poner varios valores */ 
+
+
+.imagen1 {
+    height: 400px;
+    width: 600px;
+    transition: all 2s;
+    opacity: 1 ;
+    
+    
+}
+
+.imagen1:hover {
+    content: url(https://sm.ign.com/ign_es/screenshot/default/ringi1_vvae.jpg);
+    height: 400px;
+    width: 600px;
+    opacity: 0.6;
+    transform:scale(1.1,1.1);
+    transform: rotate(-7deg);
+    
+}
+
+
+
+
+
+
+
+.imagen2 {
+    height: 400px;
+    width: 600px;
+    transition: all 2s;
+    opacity: 1 ;
+    
+    
+}
+
+.imagen2:hover {
+    content: url(https://pbs.twimg.com/media/E5aZRo5VIAA-3Ks?format=png&name=900x900);
+    height: 400px;
+    width: 600px;
+    opacity: 0.6;
+    transform:scale(1.1,1.1);
+    
+}
+
+.imagen3 {
+    height: 400px;
+    width: 600px;
+    transition: all 2s;
+    opacity: 1 ;
+    
+    
+}
+
+.imagen3:hover {
+    content: url(https://bitwares.net/wp-content/uploads/2021/05/Lanzamientos-Videojuegos-Mayo-2021.jpg);
+    height: 400px;
+    width: 600px;
+    opacity: 0.6;
+    transform: rotate(7deg);
+    
+}
+
+
+.imagen4 {
+    height: 400px;
+    width: 600px;
+    transition: all 2s;
+    opacity: 1 ;
+    
+    
+}
+
+.imagen4:hover {
+    content: url(https://static.vix.com/es/sites/default/files/las_mejores_series_de_superheroes_de_la_actualidad_0.jpg);
+    height: 400px;
+    width: 600px;
+    opacity: 0.6;
+    transform:scale(1.1,1.1)
+    
+    
+}
+
+
+Transiciones seccion JUEGOS
+
+
+
+
+#div {
+    transition: all 1s;
+    
+}
+
+#div:hover {
+    height: 250x;
+    width: 450px;
+    background-color: rgb(0, 0, 0);
+    border: double 10px rgb(255, 255, 255);
+    transition: all 2s;
+    align-content: center;
+    opacity: 0.8;
+    transform:scale(1.1,1);
+    overflow-y: scroll;
+    min-height: 500px;
+    min-width: 450px;
+    max-height: 500px;
+    color: rgb(0, 204, 255);
+    letter-spacing: 3px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-style:initial;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+.key {
+    animation-name: efecto; /*aca espeifico el nombre de la keyframe*/
+    animation-iteration-count:1ms;  /*puede tener valor en numero*/
+    animation-timing-function:ease-in-out;
+    animation-delay:  100ms;
+    animation-duration: 400ms;
+
+}
+
+
+
+
+      
+            
+ /*MOBILE FIRST (*/
+
+
+
+ 
+        
+
+
+
+ 
+/*Smarthpone*/
+
+ @media (max-width:480px) {
+
+    header {width: 1500px;
+    }
+    .padreflex 
+        {display: flex;
+        flex-direction: row;
+        position: relative;
+        }
+            
+    .madreflex 
+        {display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        left: 100px;
+        display:none;
+        }
+
+    nav li:hover > ul {display: block;}
+
+    .madreflex2 
+        {display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        left: 210px;
+        display: none;
+        }
+
+        nav ul li 
+        {width: 100px;
+        height: 30px;
+        background-color: #000d1a;
+        border-radius: 4px;
+        margin:3px;
+        padding: 1px;
+        color: #d3d3d3;
+        border: 1px double black;
+        list-style-type: none;
+        text-align: center;
+        }
+    
+        nav ul li:hover{
+        background-color: rgb(255, 255, 255);
+        color: white;
+        border: inset 4px rgb(79, 255, 117);
+        }
+
+    nav 
+    {padding-left: 500px;      /*ALTERAR*/
+    }   
+
+
+ 
+    
+    .h2               
+        {font-size: 2rem;
+         text-align: center; 
+         background-color: #000d1a; 
+         font-family:'Kelly Slab', cursive;
+         font-weight: lighter;
+         width: 1500px;
+        }
+
+        .h2article               
+        {font-size: 2rem;
+         text-align: center; 
+         background-color: #000d1a; 
+         font-family:'Kelly Slab', cursive;
+        }
+
+
+    
+        .sectiondiv {background-color: #004d26;
+            padding: 1px;
+            margin: 5px;
+            border: 10px groove rgb(79, 255, 117);
+            flex-basis: 600px;
+            border-radius: 20px;
+            margin-left: 1080px;
+            }
+
+
+
+        
+
+        .h3 
+        {font-size: 1.5rem;    
+        }
+
+        .bodyhome {height:6000px}   /*ALTERAR*/
+
+
+        .div1 
+        {width: 1000px;
+        margin-left: 220px;
+        border: double white;
+        margin-top: 60px;
+        background-color: rgb(10, 10, 10);}
+
+        .div2
+        {width: 1000px;
+        margin-left: 220px;
+        border: double white;
+        margin-top: 60px;
+        background-color:rgb(10, 10, 10) ;
+        }   
+
+        .centrar 
+        {text-align: center;
+        }
+
+       
+        
+        .reproductor
+        {font-size: 1rem;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 1380px;
+            color: white;
+        }
+
+        
+        
+ }
+
+
+
+
+
+
+
+
+
+ /* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) 
+{
+    
+
+    header {width: 1500px;
+    }
+    .padreflex 
+        {display: flex;
+        flex-direction: row;
+        position: relative;
+        }
+            
+    .madreflex 
+        {display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        left: 100px;
+        display:none;
+        }
+
+    nav li:hover > ul {display: block;}
+
+    .madreflex2 
+        {display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        left: 210px;
+        display: none;
+        }
+
+    nav ul li 
+    {width: 100px;
+    height: 30px;
+    background-color: #000d1a;
+    border-radius: 4px;
+    margin:3px;
+    padding: 1px;
+    color: #d3d3d3;
+    border: 1px double;
+    list-style-type: none;
+    text-align: center;
+    }
+
+    nav ul li:hover{
+    background-color: black;
+    color: white;
+    border: inset 5px greenyellow;
+    }
+
+    nav 
+    {padding-left: 500px;      /*ALTERAR*/
+    }   
+
+
+ 
+    .h2               
+        {font-size: 2rem;
+         text-align: center; 
+         background-color: #000d1a; 
+         width: 1500px;
+
+        }
+
+
+ .sectiondiv {background-color: #000d1a;
+        padding: 1px;
+        margin: 5px;
+        border: 10px groove rgb(79, 255, 117);
+        flex-basis: 600px;
+        border-radius: 20px;
+        margin-left: 700px;
+        }
+
+
+
+        
+
+        .h3 
+        {font-size: 1.5rem;    
+        }
+
+        .bodyhome {height:5300px}   /*ALTERAR*/
+
+
+    .div1 
+        {width: 1000px;
+        margin-left: 250px;
+        border: double white;
+        margin-top: 60px;
+        background-color:rgb(10, 10, 10);}
+
+    .div2
+        {width: 1000px;
+        margin-left: 250px;
+        border: double white;
+        margin-top: 60px;
+        background-color:rgb(10, 10, 10) ;
+        }  
+
+        .centrar 
+        {text-align: center;
+        }
+
+        .h2article               
+        {font-size: 2rem;
+         text-align: center; 
+         background-color: #000d1a; 
+        }
+        
+        .reproductor
+        {font-size: 1rem;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 1380px;
+        }
+        .footer {
+            min-height: 70px;
+            background-color: #191919;
+            background-image: -moz-linear-gradient(top, #191919, #000000);
+            background-image: -o-linear-gradient(top, #191919, #000000);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #191919), color-stop(1, #000000));
+            background-image: -webkit-linear-gradient(#191919, #000000);
+            background-image: linear-gradient(top, #191919, #000000);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#191919', endColorStr='#000000');
+            border-top: 1px solid rgba(50, 50, 50, 0.3);
+            width: 1500px;
+            position: absolute;
+            clear: both;
+            margin-top: 0px;
+            padding-top: 0px;
+            overflow: visible;
+            top: 93%;
+            position: fixed;
+            bottom: 0;
+            z-index: 3;
+            border: black inset 3px; }
+ }
+  
+  
+  /* Desktop */
+  
+  @media only screen and (min-width: 712px) and (max-width: 712px) 
+  {
+
+
+
+ 
+  }
+
+
+
+
+
+

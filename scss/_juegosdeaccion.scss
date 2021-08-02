@@ -1,0 +1,133 @@
+
+
+//VARIABLES
+$verdeclaro: #aefcc5;
+$borde: 6px groove rgb(31, 74, 192);
+
+
+
+
+
+
+
+//BEM 
+
+.section {display:flex;/*activa FLEX*/
+    flex-flow: row wrap; /*forma abreviada*/
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: white;}
+
+.section__div {background-color: #000000;
+    padding: 1px;
+    margin-top: 45px;
+    border: $borde;
+    flex-basis: 100px;
+    border-radius: 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 460px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    color: $verdeclaro;
+    }
+
+
+
+
+//MODIFICADORES
+
+.section__div--modificador1 {
+    background-color: #000000;
+    padding: 1px;
+    margin-top: 45px;
+    border: 6px groove rgb(118, 145, 118);
+    flex-basis: 100px;
+    border-radius: 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 460px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    color: $verdeclaro;
+
+}
+
+.section__div--modificador2 {
+    background-color: #000000;
+    padding: 1px;
+    margin-top: 45px;
+    border: 6px groove rgb(243, 131, 56);
+    flex-basis: 100px;
+    border-radius: 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 460px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    color: $verdeclaro;
+}
+
+
+
+
+
+.section__div--modificador3 {
+    background-color: #000000;
+    padding: 1px;
+    margin-top: 45px;
+    border: 6px groove rgb(255, 28, 28);
+    flex-basis: 100px;
+    border-radius: 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 460px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    color: $verdeclaro;
+
+}
+
+.section__div--modificador4 {
+    background-color: #000000;
+    padding: 1px;
+    margin-top: 45px;
+    border: 6px groove rgb(209, 255, 123);
+    flex-basis: 100px;
+    border-radius: 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 460px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    color: $verdeclaro;
+
+}
