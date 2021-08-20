@@ -16,10 +16,12 @@ body
     {background-color: black; 
     color: white; 
     background-size: cover;
-    height: 5100px;
+    height: 5150px;
     }
 
+.bodynoticias
 
+{height: 3000px;}
 
     
 img {z-index: 1;}
@@ -96,9 +98,12 @@ fieldset form
         }
 
     .parrafo
-        {font-size: 1rem;
-        letter-spacing: 2px;
+        {font-size: 1.3rem;
+        letter-spacing: 4px;
         color: white;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 25px;
         }
     
     
@@ -533,7 +538,7 @@ fieldset form
 
 
         .bodysubnavs
-        {height: 2000px;
+        {height: 2300px;
         }
     
 
@@ -684,311 +689,396 @@ Transiciones seccion JUEGOS
 }
 
 
-
-
-      
-            
- /*MOBILE FIRST (*/
-
-
+  
+ /*MOBILE FIRST*/
 
  
-        
 
 
-
- 
 /*Smarthpone*/
 
- @media (max-width:480px) {
+@media (min-width: 360px) and (max-width: 767px)
 
-    header {width: 1500px;
-    }
-    .padreflex 
-        {display: flex;
-        flex-direction: row;
-        position: relative;
-        }
-            
-    .madreflex 
-        {display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 30px;
-        left: 100px;
-        display:none;
-        }
+{
+    header {width: 1300px;}
+    main   {width: 1300px;}
+    nav  {width: 1300px;}
+    body {height: 8150px}
+    h1 { font-size: 5rem;}
+    nav {height: 90px;}
 
-    nav li:hover > ul {display: block;}
-
-    .madreflex2 
-        {display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 30px;
-        left: 210px;
-        display: none;
-        }
-
-        nav ul li 
-        {width: 100px;
-        height: 30px;
-        background-color: #000d1a;
-        border-radius: 4px;
-        margin:3px;
-        padding: 1px;
-        color: #d3d3d3;
-        border: 1px double black;
-        list-style-type: none;
-        text-align: center;
+    .bodysubnavs
+        {height: 2500px;
         }
     
-        nav ul li:hover{
-        background-color: rgb(255, 255, 255);
+   
+    
+
+
+    .footer__item {
+        display: flex;
+        flex-flow: row nowrap;
+        font-size: 2.5rem;
+        justify-content: space-between;
+        text-decoration: none;
         color: white;
-        border: inset 4px rgb(79, 255, 117);
-        }
+        padding-bottom: 1px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+         }
 
-    nav 
-    {padding-left: 500px;      /*ALTERAR*/
-    }   
+         .nav__item {
+            font-size: 2rem; 
+            height: 55px;}
 
-
- 
+            .parrafo
+            {font-size: 2rem;
+            letter-spacing: 4px;
+            color: white;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 25px;
+            }
+        
     
-    .h2               
-        {font-size: 2rem;
-         text-align: center; 
-         background-color: #000d1a; 
-         font-family:'Kelly Slab', cursive;
-         font-weight: lighter;
-         width: 1500px;
-        }
+                .h2               
+                    {font-size: 4rem;
+                    text-align: center; 
+                    background-color: #07021f; 
+                    font-weight: lighter;
+                    color: white;
+                    padding-bottom: 30px;
+                    padding-top: 20px;
+                    width: 1300px;
+                    }
 
-        .h2article               
-        {font-size: 2rem;
-         text-align: center; 
-         background-color: #000d1a; 
-         font-family:'Kelly Slab', cursive;
-        }
+                    .h3 
+                    {font-size: 2.6rem;  
+                    }
 
+                    .container__div {
+                        background-color: #000000;
+                        padding: 18px;
+                        margin: 10px;
+                        border: 10px groove #4fff75;
+                        flex-basis: 600px;
+                        border-radius: 20px;}
 
-    
-        .sectiondiv {background-color: #004d26;
-            padding: 1px;
-            margin: 5px;
-            border: 10px groove rgb(79, 255, 117);
-            flex-basis: 600px;
-            border-radius: 20px;
-            margin-left: 1080px;
+                        .h2article               
+                        {font-size: 4rem;
+                        text-align: center; 
+                        color: white;
+                        }
+
+                
+/*media querys GRID*/
+
+section img {width: 600px;}
+
+.gridAreas{
+    display: grid;
+    grid-template-areas:
+    "pc             none" /*1er fila*/
+    "switch         none" /*2da fila*/ 
+    "ps4yps5        none" /*3er fila*/
+    "links          none" /*4ta fila*/
+    ;
+    grid-template-columns: 1300px;
+    grid-template-rows: 500% 500% 500% 350%;
+    width: 100%;
+    grid-column-gap: 10px ;
+    grid-row-gap: 40px;
+    height: 100vh;
+   
+    }
+
+        .border {border: 5px double rgb(255, 255, 255);
+        border-radius: 4px;}
+
+            .h2grid               
+            {font-size: 3rem;
+            text-align: center; 
+            background-color: #000000; 
+            color: #ffffff;    
+            text-decoration: none;
+            text-align: center;
+            font-family:'Bungee Outline', sans-serif; 
+            font-weight:bolder;
+            letter-spacing: 5px;
+            
             }
 
 
+                .h3grid
+                    {font-size: 2.5rem;                   
+                    }
 
-        
+                    .list{
+                        text-align: left;
+                        display:inline-block;
+                        margin-top: 50px;
+                        font-size: 2.5rem;             
+                        }
 
-        .h3 
-        {font-size: 1.5rem;    
-        }
+                        .h2aside {                      
+                            font-size: 3rem;
+                            height:200px;
+                            }
 
-        .bodyhome {height:6000px}   /*ALTERAR*/
-
-
-        .div1 
-        {width: 1000px;
-        margin-left: 220px;
-        border: double white;
-        margin-top: 60px;
-        background-color: rgb(10, 10, 10);}
-
-        .div2
-        {width: 1000px;
-        margin-left: 220px;
-        border: double white;
-        margin-top: 60px;
-        background-color:rgb(10, 10, 10) ;
-        }   
-
-        .centrar 
-        {text-align: center;
-        }
-
-       
-        
-        .reproductor
-        {font-size: 1rem;
-            text-align: center;
-            margin-bottom: 20px;
-            width: 1380px;
-            color: white;
-        }
-
-        
-        
- }
-
-
-
-
-
-
-
-
-
- /* Tablet */
-@media only screen and (min-width: 401px) and (max-width: 960px) 
-{
-    
-
-    header {width: 1500px;
-    }
-    .padreflex 
-        {display: flex;
-        flex-direction: row;
-        position: relative;
-        }
+                            iframe {width: 1300px;
+                            height: 800px;}
             
-    .madreflex 
-        {display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 30px;
-        left: 100px;
-        display:none;
-        }
+                           
 
-    nav li:hover > ul {display: block;}
 
-    .madreflex2 
-        {display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 30px;
-        left: 210px;
-        display: none;
-        }
+}
 
-    nav ul li 
-    {width: 100px;
-    height: 30px;
-    background-color: #000d1a;
-    border-radius: 4px;
-    margin:3px;
-    padding: 1px;
-    color: #d3d3d3;
-    border: 1px double;
-    list-style-type: none;
-    text-align: center;
+
+/*Tablet*/
+
+@media (min-width: 768px) and (max-width: 991px)
+
+
+{
+    header {width: 1300px;}
+    main   {width: 1300px;}
+    nav  {width: 1300px;}
+    body {height: 8600px}
+    h1 { font-size: 5rem;}
+    nav {height: 90px;}
+
+    .bodysubnavs
+    {height: 2500px;
     }
 
-    nav ul li:hover{
-    background-color: black;
-    color: white;
-    border: inset 5px greenyellow;
+    
+    .footer__item {
+        display: flex;
+        flex-flow: row nowrap;
+        font-size: 2.5rem;
+        justify-content: space-between;
+        text-decoration: none;
+        color: white;
+        padding-bottom: 1px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        }
+
+        .nav__item {
+            font-size: 2rem;
+            height: 55px;}
+
+            .parrafo
+                {font-size: 2rem;
+                letter-spacing: 4px;
+                color: white;
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-top: 25px;
+                }
+
+                    .h2               
+                    {font-size: 3rem;
+                    text-align: center; 
+                    background-color: #07021f; 
+                    font-weight: lighter;
+                    color: white;
+                    padding-bottom: 30px;
+                    padding-top: 20px;
+                    width: 1300px;
+                    }
+
+                        .h3 
+                        {font-size: 2.5rem;  
+                        }
+
+                        .container__div {
+                            background-color: #000000;
+                            padding: 18px;
+                            margin: 10px;
+                            border: 10px groove #4fff75;
+                            flex-basis: 600px;
+                            border-radius: 20px;}
+
+                            .h2article               
+                            {font-size: 4rem;
+                            text-align: center; 
+                            color: white;
+                            }
+
+
+/*media querys GRID*/
+
+        section img {width: 600px;}
+
+        .gridAreas{
+            display: grid;
+            grid-template-areas:
+            "pc             none" /*1er fila*/
+            "switch         none" /*2da fila*/ 
+            "ps4yps5        none" /*3er fila*/
+            "links          none" /*4ta fila*/
+            ;
+            grid-template-columns: 1300px;
+            grid-template-rows: 300% 300% 300% 130%;
+            width: 100%;
+            grid-column-gap: 10px ;
+            grid-row-gap: 40px;
+            height: 100vh;
+        
+            }
+
+                .border {border: 5px double rgb(255, 255, 255);
+                border-radius: 4px;}
+
+                    .h2grid               
+                    {font-size: 3rem;
+                    text-align: center; 
+                    background-color: #000000; 
+                    color: #ffffff;    
+                    text-decoration: none;
+                    text-align: center;
+                    font-family:'Bungee Outline', sans-serif; 
+                    font-weight:bolder;
+                    letter-spacing: 5px;
+                    
+                    }
+
+
+                        .h3grid
+                            {font-size: 2.5rem;                   
+                            }
+
+                            .list{
+                                text-align: left;
+                                display:inline-block;
+                                margin-top: 50px;
+                                font-size: 2.5rem;             
+                                }
+
+                                .h2aside {                      
+                                    font-size: 3rem;
+                                    height:200px;
+                                    margin-top: 10px;
+                                    }
+
+                                    iframe {width: 1300px;
+                                    height: 800px;}
+                    
+                                     
+
+                
+
+}
+
+/*Desktop*/
+
+@media (min-width: 992px) and (max-width: 1300px)
+
+
+{
+    header {width: 1500px;}
+    main   {width: 1500px;}
+    nav  {width: 1500px;}
+    body {height: 7000px}
+    h1 { font-size: 5rem;}
+    nav {height: 90px;}
+
+    .bodysubnavs
+    {height: 2500px;
     }
 
-    nav 
-    {padding-left: 500px;      /*ALTERAR*/
-    }   
-
-
- 
-    .h2               
-        {font-size: 2rem;
-         text-align: center; 
-         background-color: #000d1a; 
-         width: 1500px;
-
+    .footer__item {
+        display: flex;
+        flex-flow: row nowrap;
+        font-size: 2.5rem;
+        justify-content: space-between;
+        text-decoration: none;
+        color: white;
+        padding-bottom: 1px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: bolder;
+        letter-spacing: 5px;
         }
 
+        .nav__item {
+            font-size: 2rem; 
+            height: 55px;}
 
- .sectiondiv {background-color: #000d1a;
-        padding: 1px;
-        margin: 5px;
-        border: 10px groove rgb(79, 255, 117);
-        flex-basis: 600px;
-        border-radius: 20px;
-        margin-left: 700px;
-        }
+            .parrafo
+                {font-size: 2rem;
+                letter-spacing: 4px;
+                color: white;
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-top: 25px;
+                }
 
+                    .h2               
+                    {font-size: 3rem;
+                    text-align: center;
+                    width: 1500px; 
+                    }
 
+                        .h3 
+                        {font-size: 2.6rem;  
+                        }
+
+            
+                        .container__div {
+                            background-color: #000000;
+                            padding: 18px;
+                            margin: 10px;
+                            border: 10px groove #4fff75;
+                            flex-basis: 600px;
+                            border-radius: 20px;}
+
+                            .h2article               
+                            {font-size: 4rem;
+                            text-align: center; 
+                            color: white;
+                            }
+
+/*media querys GRID*/
 
         
 
-        .h3 
-        {font-size: 1.5rem;    
-        }
+        .gridAreas{
+            display: grid;
+            grid-template-areas:
+            "pc             links" /*1er fila*/
+            "switch         none" /*2da fila*/ 
+            "ps4yps5        none"  /*3er fila*/
+            ;
+            grid-template-columns: 65% 60vh;
+            grid-template-rows: 200% 200% 200%;
+            width: 1300px;
+            grid-column-gap: 10px;
+            grid-row-gap: 20px;
+            height: 100vh;
+            margin-top: 15px;
+            margin-left: 0px;
+            }
 
-        .bodyhome {height:5300px}   /*ALTERAR*/
-
-
-    .div1 
-        {width: 1000px;
-        margin-left: 250px;
-        border: double white;
-        margin-top: 60px;
-        background-color:rgb(10, 10, 10);}
-
-    .div2
-        {width: 1000px;
-        margin-left: 250px;
-        border: double white;
-        margin-top: 60px;
-        background-color:rgb(10, 10, 10) ;
-        }  
-
-        .centrar 
-        {text-align: center;
-        }
-
-        .h2article               
-        {font-size: 2rem;
-         text-align: center; 
-         background-color: #000d1a; 
-        }
-        
-        .reproductor
-        {font-size: 1rem;
-            text-align: center;
-            margin-bottom: 20px;
-            width: 1380px;
-        }
-        .footer {
-            min-height: 70px;
-            background-color: #191919;
-            background-image: -moz-linear-gradient(top, #191919, #000000);
-            background-image: -o-linear-gradient(top, #191919, #000000);
-            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #191919), color-stop(1, #000000));
-            background-image: -webkit-linear-gradient(#191919, #000000);
-            background-image: linear-gradient(top, #191919, #000000);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#191919', endColorStr='#000000');
-            border-top: 1px solid rgba(50, 50, 50, 0.3);
-            width: 1500px;
-            position: absolute;
-            clear: both;
-            margin-top: 0px;
-            padding-top: 0px;
-            overflow: visible;
-            top: 93%;
-            position: fixed;
-            bottom: 0;
-            z-index: 3;
-            border: black inset 3px; }
- }
-  
-  
-  /* Desktop */
-  
-  @media only screen and (min-width: 712px) and (max-width: 712px) 
-  {
-
-
-
- 
-  }
+            iframe {width: 500px;
+                height: 400px;}
+       
+                                        
 
 
 
 
 
+
+
+
+
+
+
+}
 
